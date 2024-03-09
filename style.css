@@ -1,0 +1,36 @@
+
+body {
+    background: rgb(30, 0, 77);
+    font-family: 'tajawal' , sans-serif;
+   } 
+
+   .tasks-table {
+       background-color: rgb(239, 239, 239);
+       width: 60%;
+       /* height: 500px; */
+       margin-top: 30px;
+   }
+    
+    button {
+       border: none;
+       font-size: 20px;
+       box-shadow: 0px 3px 5 px rgba(186,186,186 ,0.3);
+    }
+
+   button.circular {
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       line-height: 0px;
+   }
+   .task:hover{
+    box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+   }
+   .task {
+    display: flex;
+    background: white;
+    padding: 4px;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.5s;
+
+   }
