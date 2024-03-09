@@ -19,3 +19,10 @@ if (num2 == 0){
     return num1 / num2
 
 }
+function divide22222222(num1 ,num2){
+  if (num2 == 0){
+      throw "can not divide the number"
+  }
+      return num1 / num2
+  
+  }
